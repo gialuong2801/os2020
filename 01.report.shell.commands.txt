@@ -1,0 +1,77 @@
+﻿Đinh Gia Lượng
+BI9-159
+LABWORK REPORT
+
+
+Luong@luong-HP-EliteBook-840-G3:~$ echo Hello world!
+Hello world!
+
+luong@luong-HP-EliteBook-840-G3:~$ passwd
+Changing password for luong.
+Current password: 
+New password: 
+Retype new password: 
+Password unchanged
+New password: 
+Retype new password: 
+Sorry, passwords do not match.
+passwd: Authentication token manipulation error
+passwd: password unchanged
+
+luong@luong-HP-EliteBook-840-G3:~$ date
+Thứ ba, 31 Tháng 3 năm 2020 09:55:30 +07
+
+luong@luong-HP-EliteBook-840-G3:~$ hostname
+luong-HP-EliteBook-840-G3
+
+luong@luong-HP-EliteBook-840-G3:~$ arch
+x86_64
+
+luong@luong-HP-EliteBook-840-G3:~$ uname -a
+Linux luong-HP-EliteBook-840-G3 5.3.0-18-generic #19-Ubuntu SMP Tue Oct 8 20:14:06 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+luong@luong-HP-EliteBook-840-G3:~$ uptime
+ 09:57:44 up 17 min,  1 user,  load average: 1,09, 1,94, 1,91
+
+luong@luong-HP-EliteBook-840-G3:~$ who am I
+
+luong@luong-HP-EliteBook-840-G3:~$ whoami
+luong
+
+luong@luong-HP-EliteBook-840-G3:~$ who
+luong    :0           2020-03-31 09:41 (:0)
+
+luong@luong-HP-EliteBook-840-G3:~$ id
+uid=1000(luong) gid=1000(luong) groups=1000(luong),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),119(lpadmin),130(lxd),131(sambashare)
+
+luong@luong-HP-EliteBook-840-G3:~$ last
+luong    :0           :0               Tue Mar 31 09:41   still logged in
+reboot   system boot  5.3.0-18-generic Tue Mar 31 16:40   still running
+luong    :0           :0               Sun Mar 29 21:43 - down   (00:01)
+reboot   system boot  5.3.0-18-generic Mon Mar 30 04:42 - 21:45  (-6:57)
+luong    :0           :0               Mon Mar 23 20:04 - down   (00:01)
+reboot   system boot  5.3.0-18-generic Tue Mar 24 03:04 - 20:06  (-6:57)
+luong    :0           :0               Fri Mar 20 19:08 - down   (00:01)
+reboot   system boot  5.3.0-18-generic Sat Mar 21 02:08 - 19:10  (-6:57)
+luong    :0           :0               Thu Mar 19 08:14 - crash (1+17:53)
+reboot   system boot  5.3.0-18-generic Thu Mar 19 15:13 - 19:10 (1+03:56)
+luong    :0           :0               Wed Mar 18 21:31 - down   (00:04)
+reboot   system boot  5.3.0-18-generic Thu Mar 19 04:30 - 21:35  (-6:54)
+luong    :0           :0               Tue Mar 17 17:26 - down   (-6:57)
+reboot   system boot  5.3.0-18-generic Tue Mar 17 17:26 - 10:29  (-6:56)
+luong    :0           :0               Tue Mar 17 17:23 - down   (00:02)
+reboot   system boot  5.3.0-18-generic Tue Mar 17 17:23 - 17:25  (00:02)
+luong    :0           :0               Tue Mar 17 10:17 - down   (00:00)
+reboot   system boot  5.3.0-18-generic Tue Mar 17 10:17 - 10:18  (00:01)
+luong    :0           :0               Tue Mar 17 23:19 - down   (-13:01)
+reboot   system boot  5.3.0-18-generic Tue Mar 17 23:18 - 10:17  (-13:01)
+
+wtmp begins Tue Mar 17 23:18:38 2020
+uong@luong-HP-EliteBook-840-G3:~$ finger
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+luong     Luong     *:0             Mar 31 09:41 (:0)
+luong@luong-HP-EliteBook-840-G3:~$ w
+ 10:04:41 up 24 min,  1 user,  load average: 3,48, 2,39, 2,05
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+luong    :0       :0               09:41   ?xdm?  14:10   0.02s /usr/lib/gdm3/g
+
