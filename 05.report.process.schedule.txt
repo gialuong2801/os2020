@@ -1,0 +1,74 @@
+﻿luong@luong-HP-EliteBook-840-G3:~$ cat /proc/sched_debug | grep ".nr_running".
+  .nr_running                    : 1
+  .nr_running                    : 1
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .rt_nr_running                 : 0
+  .dl_nr_running                 : 0
+  .nr_running                    : 1
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 1
+  .nr_running                    : 1
+  .rt_nr_running                 : 0
+  .dl_nr_running                 : 0
+  .nr_running                    : 1
+  .nr_running                    : 1
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 1
+  .rt_nr_running                 : 0
+  .dl_nr_running                 : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .nr_running                    : 0
+  .rt_nr_running                 : 1
+  .dl_nr_running                 : 0
+
+luong@luong-HP-EliteBook-840-G3:~$ cat /proc/1/sched
+systemd (1, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :       2358856.352437
+se.vruntime                                  :          5076.370104
+se.sum_exec_runtime                          :         14990.699716
+se.nr_migrations                             :                60655
+nr_switches                                  :               332838
+nr_voluntary_switches                        :               329511
+nr_involuntary_switches                      :                 3327
+se.load.weight                               :              1048576
+se.runnable_weight                           :              1048576
+se.avg.load_sum                              :                   72
+se.avg.runnable_load_sum                     :                   72
+se.avg.util_sum                              :                68256
+se.avg.load_avg                              :                    0
+se.avg.runnable_load_avg                     :                    0
+se.avg.util_avg                              :                    0
+se.avg.last_update_time                      :        2358856351744
+se.avg.util_est.ewma                         :                   10
+se.avg.util_est.enqueued                     :                    0
+policy                                       :                    0
+prio                                         :                  120
+clock-delta                                  :                   90
+mm->numa_scan_seq                            :                    0
+numa_pages_migrated                          :                    0
+numa_preferred_nid                           :                   -1
+total_numa_faults                            :                    0
+current_node=0, numa_group_id=0
+numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0
