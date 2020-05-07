@@ -1,0 +1,14 @@
+﻿luong@luong-HP-EliteBook-840-G3:~$ ls | grep list
+*I have no file "list"
+
+luong@luong-HP-EliteBook-840-G3:~$ wc -l /etc/passwd
+45 /etc/passwd
+
+luong@luong-HP-EliteBook-840-G3:~$ free -g | head -n 2 | tail -n 1 | awk '{print $2}'
+7
+
+luong@luong-HP-EliteBook-840-G3:~$ cat/proc/cpuinfor | grep 'cpu cores' | head -1
+bash: cat/proc/cpuinfor: No such file or directory
+
+luong@luong-HP-EliteBook-840-G3:~$ find . | grep .jpeg | wc -l
+0
