@@ -1,0 +1,5 @@
+﻿luong@luong-HP-EliteBook-840-G3:~$ pidof chrome
+8923 8886 8487 8416 3066 3051 3006 2087 2063 2031 2029 1965 1961 1940 1934 1923
+
+luong@luong-HP-EliteBook-840-G3:~$ ps -o nlwp 24248
+NLWP
