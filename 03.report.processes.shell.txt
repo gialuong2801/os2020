@@ -1,0 +1,37 @@
+﻿luong@luong-HP-EliteBook-840-G3:~$ ps man
+  PID TTY      STAT   TIME COMMAND
+ 1132 tty2     -      0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SH
+    - -        Ssl+   0:00 -
+    - -        Ssl+   0:00 -
+    - -        Ssl+   0:00 -
+ 1136 tty2     -      2:46 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1
+    - -        Sl+    2:12 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:33 -
+ 1225 tty2     -      0:00 /usr/lib/gnome-session/gnome-session-binary --systemd
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+    - -        Sl+    0:00 -
+10492 pts/0    -      0:00 bash
+    - -        Ss     0:00 -
+10573 pts/0    -      0:00 ps man
+- -        R+     0:00 -
+
+luong@luong-HP-EliteBook-840-G3:~$ gnome-calculator
+*open calculator
+
+luong@luong-HP-EliteBook-840-G3:~$ ps aux | grep firefox
+luong    10645  0.0  0.0  20520   848 pts/0    S+   23:04   0:00 grep --color=auto firefox
+
+luong@luong-HP-EliteBook-840-G3:~$ cat /proc/5169/status | head -10
+cat: /proc/5169/status: No such file or directory
+
+luong@luong-HP-EliteBook-840-G3:~$ kill -s STOP 5169
+bash: kill: (5169) - No such process
+
+luong@luong-HP-EliteBook-840-G3:~$ kill -s CONT 5169
+bash: kill: (5169) - No such process
+
+luong@luong-HP-EliteBook-840-G3:~$ kill -s KILL 5169
+bash: kill: (5169) - No such process
